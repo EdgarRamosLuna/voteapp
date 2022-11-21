@@ -26,7 +26,7 @@ const List = ({ /*data, votar, borrar, changeName */}) => {
       prev.map((band) => {
         if (band.id === id) {
           band.name = nuevoNombre;
-        }
+        } 
         return band;
       })
     );
