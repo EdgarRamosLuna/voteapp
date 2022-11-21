@@ -29,7 +29,7 @@ const Add = () => {
           type=""
           name=""
           value={valor}
-          placeholder="Nuevo nombre de banda"
+          placeholder="Nuevo candidato"
           onChange={(e) => setValor(e.target.value)}
         />
       </form>
