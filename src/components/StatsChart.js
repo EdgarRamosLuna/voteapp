@@ -21,7 +21,7 @@ const StatsChart = () => {
     datasets: [
       {
         label: "# of Votes",
-        data: bands.length > 0 ? bands.map(band => band.votes) : [1, 2, 3 ],
+        data: bands.map(band => band.votes == 0 ? 1 : band.votes ),
         backgroundColor: [
           "rgba(255, 99, 132, 0.2)",
           "rgba(54, 162, 235, 0.2)",
