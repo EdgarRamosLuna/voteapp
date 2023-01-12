@@ -33,6 +33,7 @@ const Add = () => {
           onChange={(e) => setValor(e.target.value)}
         />
       </form>
+      <button>Reiniciar Votaciones</button>
     </>
   );
 };
